@@ -28,7 +28,7 @@ async def send_message(message: Message, user_message: str) ->None:
 
 
 def run_discord_bot():
-    TOKEN = 'MTIzMDU1NzQ2Njk3MDgyMDc0MA.GyR_h5.JJvj7I7CeqJczc7tZodcs9snlCFB2klb9QCZB8'
+    TOKEN = ''
 
     @client.event
     async def on_ready():
